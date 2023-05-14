@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kenia&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap'); 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidebar{
+  position: absolute;
+  background-color: rgb(233, 211, 16);
+  height: 100vh;
+  transition: transform 0.4s ease-in;
+}
+
+.main{
+  background-color: rgb(175, 238, 111);
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+}
+
+.sidebar nav{
+  padding: 95px;
+}
+
+.sidebar nav li{
+  list-style: none;
+  font-size: 18px;
+  padding: 30px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar nav li img{
+  width: 100px;
+  height: 100px;
+}
+
+.infocontainer{
+  background-color: rgb(221, 138, 90);
+  height: 60vh;
+  width: 80vw;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devinfo{
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.whatsapp{
+  align-items: center;
+  display: inline;
+}
+
+.whatsapp img{
+  width: 40px;
+}
+
+.facebook{
+  align-items: center;
+  display: inline;
+}
+
+.facebook img{
+  width: 40px;
+  
+}
+.linkedin{
+  align-items: center;
+  display: inline;
+}
+
+.linkedin img{
+  width: 40px;
+  
+}
+.Instagram{
+  align-items: center;
+  display: inline;
+}
+
+.Instagram img{
+  width: 40px;
+  
+}
+
+.hello{
+  font-size: 3em;
+  font-family:'Syne Mono', monospace;
+}
+
+.name{
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Fredoka One', cursive;
+}
+
+.about{
+  font-size: 2em;
+  font-family: 'Syne Mono', monospace;
+}
+
+.aboutme{
+  font-size: 1.2em;
+  margin: 20px;
+  font-family: 'Courgette', cursive;
+}
+
+.buttons{
+  margin-top: 2em;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(91, 120, 193);
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin:3px 3px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color:white;
+  color:rgb(91, 120, 193) ;
+  
+}
+
+.devpic img{
+  height: 60vh;
+}
+
+.contactform{
+  padding: 10px;
+  padding-left: 100px;
+  font-family:'Syne Mono', monospace;
+  margin: 200px;
+}
+.contactform h1{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
+.contactform form .mb-3{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform .mb-3 input{
+  /* width: 50pxvw; */
+  border-radius: 10px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+.contactform form{
+  margin: 0 40px;
+}
+
+
+#emailHelp{
+  font-size: 14px;
+  margin: 0 5px;
+  color: rgb(175, 79, 28);
+}
+
+#form-check{
+  flex-direction: row;
+}
+
+#form-check input{
+  width: 24px;
+  margin: 3px 0;
+
+}
+
+.blogcontainer{
+  margin:40px 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction:column;
+}
+
+.blogcontainer h1{
+  font-family:'Syne Mono', monospace;
+}
+
+.blogitems{
+  width: 30vw;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(222, 233, 233);
+  border-radius: 10px;
+  font-size: large;
+}
+
+.blogitems h2{
+  font-family: 'Syne Mono', monospace;
+}
+
+.blogitems p{
+  font-family: 'Syne Mono', monospace;
+}
+
+.blogitems .btn{
+  margin: 10px;
+}
+
+.infocontainer{
+  width: 65vw;
+  border-radius: 20px;
+}
+
+.devinfo h1{
+  font-family: 'Courgette', cursive;
+  }
+
+  .devinfo p{
+    font-family: 'Courgette', cursive;
+    margin: 24px;
+    padding: 10px;
+    background-color: rgb(233, 202, 161);
+    border-radius: 10px;
+  }
+
+  .devinfo ul{
+    font-family: 'Courgette', cursive;
+    margin: 24px;
+    padding: 10px;
+    background-color: rgb(233, 202, 161);
+    border-radius: 10px;
+  }
+
+  .sidebarGo{
+    transform: translate(-400px,0px);
+    position: absolute
+  }
+
+  .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+  }
+
+  .ham{
+    margin-top: 10px;
+  }
+
+  .cross{
+    margin-left: 250px;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 1080px) {
+
+    /* .buttons{
+      font-size: 10px;
+    }
+     */
+    .devpic{
+      display: none;
+    }
+    .devinfo{
+      font-size: 10px;
+    }
+
+    /* .infocontainer ,.blogcontainer, .contactform{
+      margin: 50px 8px;
+    } */
+    /* .sidebar{
+      transform: translate(-400px,0px);
+      position: absolute
+    } */
+    
+  }
